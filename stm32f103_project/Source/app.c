@@ -86,6 +86,7 @@ void task4Entry (void * param)
 ***********************************************************************************************************/
 void tInitApp (void) 
 {
+	// A添加注释
     // 初始化任务1和任务2结构，传递运行的起始地址，想要给任意参数，以及运行堆栈空间
     tTaskInit(&tTask1, task1Entry, (void *)0x11111111, 0, task1Env, sizeof(task1Env));
     tTaskInit(&tTask2, task2Entry, (void *)0x22222222, 1, task2Env, sizeof(task2Env));
