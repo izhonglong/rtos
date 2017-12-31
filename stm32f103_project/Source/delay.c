@@ -1,0 +1,4 @@
+void delay(void)
+{
+	return;
+}

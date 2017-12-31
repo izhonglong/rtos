@@ -91,6 +91,8 @@ void tInitApp (void)
     tTaskInit(&tTask2, task2Entry, (void *)0x22222222, 1, task2Env, sizeof(task2Env));
     tTaskInit(&tTask3, task3Entry, (void *)0x33333333, 1, task3Env, sizeof(task3Env));
     tTaskInit(&tTask4, task4Entry, (void *)0x44444444, 1, task4Env, sizeof(task4Env));
+	
+	tTaskDelay(11);				// B修改
 }
 
 
